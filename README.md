@@ -15,6 +15,4 @@ Se deseja contribuir com novas soluções ou melhorias nas soluções existentes
     Faça push para a branch (git push origin feature/nova-solucao).
     Crie um novo Pull Request.
 
-Licença
 
-Este projeto está licenciado sob a Licença MIT - consulte o arquivo LICENSE.md para mais detalhes.
