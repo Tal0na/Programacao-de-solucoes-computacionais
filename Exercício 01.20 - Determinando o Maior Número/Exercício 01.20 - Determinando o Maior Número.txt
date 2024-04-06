@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Leitura dos números inteiros
+        int numero1 = scanner.nextInt();
+        int numero2 = scanner.nextInt();
+
+        // Verificação do maior número
+        int maiorNumero;
+        if (numero1 > numero2) {
+            maiorNumero = numero1;
+        } else {
+            maiorNumero = numero2;
+        }
+
+        // Impressão do resultado
+        System.out.println("O maior número é: " + maiorNumero);
+
+        scanner.close();
+    }
+}
